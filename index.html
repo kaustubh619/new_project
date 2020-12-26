@@ -19,15 +19,11 @@
             position: relative;
         }
 
-        #content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         #vid {
             width: 100%;
             height: 100vh;
+            position: absolute;
+            top: -10%;
         }
 
         #content_text {
@@ -57,9 +53,7 @@
 </head>
 
 <body>
-    <div class="content">
-        <video id="vid" src="./video/logo_animation.mp4" loop autoplay muted>
-    </div>
+    <video id="vid" src="./video/logo_animation.mp4" loop autoplay muted></video>
     <span id="content_text">Upcoming Soon</span>
 </body>
 
